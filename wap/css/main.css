@@ -1,0 +1,261 @@
+@font-face {
+    font-family: ".PingFang SC";
+    font-weight: 500;
+    src: local(".PingFang-SC-Medium");
+}
+
+@font-face {
+    font-family: ".PingFang SC";
+    font-weight: 400;
+    src: local(".PingFang-SC-Regular");
+}
+
+@font-face {
+    font-family: ".PingFang SC";
+    font-weight: 300;
+    src: local(".PingFang-SC-Light");
+}
+body {
+    color: #5d6266;
+    margin: 0 auto;
+    max-width: 767px;
+    font-size: 14px;
+    font-family: "PingFang-SC-Light", sans-serif;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent -webkit-font-smoothing:antialiased;
+}
+body, html {
+    height: 100%;
+}
+.ui.continar{
+	padding:0 4%;
+    margin: 0 auto;
+    max-width: 767px;
+	position:relative;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.ui.continar:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#login{
+	background:url(../images/bg.jpg);
+	background-size:cover;
+	width:100%;
+	height:100%;
+	overflow: scroll;
+	position: relative;
+}
+#login .yuanquan2{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+#login .logo{
+	position:absolute;
+	top:21%;
+	left:30%;
+	width:40%;
+}
+#login .ui.continar{
+	position:absolute;
+	top:40%;
+	width:100%;
+	left:0;
+	margin-top:100px;
+}
+#login .title{
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	margin: 25px 0;
+}
+#login .ui.input{
+	border:none;
+	height: 40px;
+}
+.btn{
+	width: 100%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+	vertical-align: middle;
+}
+.mt-10{
+	margin:10px 0;
+}
+.mt-12{
+	margin:12px 0;
+}
+.mt-15{
+	margin:15px 0;
+}
+.black.btn{
+	background:#222;
+	color:#fff;
+}
+.red.btn{
+	background:#f63d6b;
+	color:#fff;
+}
+.inputchk{
+	position:relative;
+	color:#fff;
+	font-size:16px;
+}
+.inputchk input[type="checkbox"]{
+	vertical-align: middle;
+    border: none;
+    outline: none;
+	margin-right: 6px;
+}
+.ui.menu{
+	width:100%;
+	background:url(../images/menu.jpg) no-repeat;
+	height:50px;
+	background-size:cover;
+	color:#fff;
+	line-height:50px;
+	font-size:20px;
+	text-align: center;
+	position: relative;
+}
+.ui.menu .back{
+	width:12px;
+	height:20px;
+	position:absolute;
+	left:6%;
+	top:15px;
+	background:url(../images/back.png);
+	background-size:12px;
+}
+/**** 无线设置 ***/
+.wireless .message{
+	background:#f1f1f1;
+	height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 0 4%;
+	color:#666;
+}
+.wireless .ui.continar{
+	margin-top:20px;
+}
+.wireless .ui.input{
+    height: 50px;
+    margin: 12px 0;
+}
+.ui.input{
+    border: 1px solid rgba(0,0,0,0.1);
+	position: relative;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+	border-radius:4px;
+}
+.ui.field.input{
+	width:100%;
+}
+.ui.input input {
+    margin: 0;
+    width: 94%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    outline: 0;
+    text-align: left;
+    background: #FFF;
+    border: none;
+    box-shadow: none;
+	border-radius: 4px;
+	font-size:16px;
+	vertical-align: middle;
+	padding: 0 3%;
+	height:100%;
+}
+.h-50{
+	height:50px;
+}
+.h-40{
+	height:40px;
+}
+h3.ui.header{
+	margin: 15px 0;
+    font-size: 18px;
+    color: #666;
+	font-weight: 500;
+}
+.hrline{
+	margin: 5px 0 0;
+    border: none;
+    box-shadow: none;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.ui.input .filebtn{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+}
+.ui.system .ui.input.btn{
+	vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+}
+#filecontent{
+	font-size: 16px;
+    line-height: 40px;
+    padding-left: 3%;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 28%;
+}
+.ui.action .ui.btn{
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+	background: #e9e9e9;
+	color: #666;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.wrong{
+	font-size:14px;
+	color:#f36;
+}
+/**** 系统状态 ****/
+#bg-clicre{
+	margin-top:-50px;
+	position:relative;
+	width:100%;
+	background:url(../images/bgt.png)center top no-repeat;
+	background-size:cover;
+}
+.state .ui.menu{
+	background:none;
+	z-index:9;
+}
+#xinhao{
+	width: 40%;
+	position: absolute;
+	left:30%;
+}
+
+
+
