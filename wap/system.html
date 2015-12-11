@@ -11,22 +11,14 @@
 		<meta content="太火鸟" name="author" />
 		<title>系统管理</title>
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
-		<script type="text/javascript" >
-		  function  handleFiles()  
-		    {  
-				var filebtnn = document.getElementById("filebtnn").value;
-				document.getElementById("filecontent").innerHTML = filebtnn;
-		      	
-		    } 
-		</script>
 	</head>
 	
 	
 	<body>
 		<div class="ui system">
 			<div class="ui menu">
-				<a href="wireless.html"><div class="back"></div></a>
-				<div class="massege">系统管理</div>
+				<div class="back"></div>
+				系统管理
 			</div>
 			<div class="ui continar">
 				<h3 class="ui header">用户管理</h3>
@@ -50,9 +42,17 @@
 				</div>
 				<div class="hrline"></div>
 				<h3 class="ui header">设备管理</h3>
-				<a href="state.html"><button type="submit" class="ui red btn">重启设备</button></a>
+				<button type="submit" class="ui red btn">重启设备</button>
 				<button type="submit" class="ui black mt-12 btn">恢复出厂设置</button>
 			</div>
 		</div>
 	</body>
+	<script type="text/javascript" >
+	  function  handleFiles()  
+	    {  
+			var filebtnn = document.getElementById("filebtnn").value;
+			document.getElementById("filecontent").innerHTML = filebtnn;
+	      	
+	    } 
+	</script>
 </html>
